@@ -123,7 +123,7 @@
 			})
 			
 			getRecommend().then(res => {
-				// console.log(res.data.list)
+				console.log(res.data.list)
 				this.recommendList = res.data.list
 			})
 			
@@ -169,7 +169,7 @@
 				product.title = this.goods.title
 				product.desc = this.goods.desc
 				product.price = this.goods.nowPrice
-				console.log(product)
+				// console.log(product)
 				
 				//将商品添加到购物车
 				this.addCart(product).then(res => {

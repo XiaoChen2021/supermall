@@ -72,6 +72,7 @@
 		},
 		computed: {
 			showGoods() {
+				console.log(this.goods[this.currentType].list)
 				return this.goods[this.currentType].list
 			}
 		},
